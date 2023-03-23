@@ -6,6 +6,7 @@ import Header from "./Component/Header/Header";
 import Articles from "./Component/Articles/Articles";
 import Footer from "./Component/Footer/Footer";
 import Battery from "./Component/Battery/Battery";
+import Clock from "./Component/Clock/Clock";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
       <Articles />
       <Footer />
       <Battery /> */}
+      <Clock />
     </div>
   );
 }
