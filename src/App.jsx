@@ -8,6 +8,7 @@ import Footer from "./Component/Footer/Footer";
 import Battery from "./Component/Battery/Battery";
 import Clock from "./Component/Clock/Clock";
 import Show from "./Component/Show/Show";
+import Watch from "./Component/Watch/Watch";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       <Battery />
       <Clock /> */}
       <Show />
+      <Watch />
     </div>
   );
 }
