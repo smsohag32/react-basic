@@ -16,8 +16,8 @@ function App() {
 
   return (
     <div>
-      {/* <Header />
       <Articles />
+      {/* <Header />
       <Footer />
       <Battery />
       <Clock /> */}
